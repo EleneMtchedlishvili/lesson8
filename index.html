@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header class="logo_container">
+      <img src="src/images/Asset 1 1.png" alt="logo" class="logo" />
+    </header>
+    <section class="section_container">
+      <!-- აიქონების ხაზი -->
+      <div class="row">
+        <div class="col-4 box">
+          <div class="col-4">
+            <img src="src/images/Vector.png" alt="car" class="icon" />
+          </div>
+          <div class="col-4">
+            <img src="src/images/Vector (1).png" alt="tractor" class="icon" />
+          </div>
+          <div class="col-4">
+            <img
+              src="src/images/Vector (2).png"
+              alt="motorcycle"
+              class="icon"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- სელექთები -->
+      <div class="col-12">
+        <div class="select_container">
+          <div class="col-12">
+            <div class="label">გარიგების ტიპი</div>
+            <select class="custom_select">
+              <option selected disabled>იყიდება</option>
+              <option value="1">მანქანა</option>
+              <option value="2">მოტოციკლეტი</option>
+              <option value="3">ტრაქტორი</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="label">მწარმოებელი</div>
+            <select class="custom_select">
+              <option selected disabled>ყველა მწარმოებელი</option>
+              <option value="1">მანქანა</option>
+              <option value="2">მოტოციკლეტი</option>
+              <option value="3">ტრაქტორი</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="label">კატეგორია</div>
+            <select class="custom_select">
+              <option selected disabled>ყველა კატეგორია</option>
+              <option value="1">მანქანა</option>
+              <option value="2">მოტოციკლეტი</option>
+              <option value="3">ტრაქტორი</option>
+            </select>
+            <!-- ფასი და ვალუტის აიქონი -->
+            <div class="price_row">
+              <p class="price">ფასი</p>
+              <img
+                src="src/images/Component 1.png"
+                alt="valuta"
+                class="icon_valuta"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price_row">
+        <div class="col-4 price_input">
+          <div class="col-6">
+            <form class="input"><input type="text" placeholder="დან" /></form>
+          </div>
+          <div class="col-6">
+            <form class="input"><input type="text" placeholder="მდე" /></form>
+          </div>
+        </div>
+      </div>
+      <div class="price_row">
+        <div class="col-4">
+          <div class="col-12">
+            <div>
+              <form class="search">
+                <input
+                  class="search_input"
+                  type="search"
+                  placeholder="ძებნა 197,963"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- მეორე სექცია -->
+    <section>
+      <div class="row">
+        <div class="col-8">
+          <div class="box_car"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

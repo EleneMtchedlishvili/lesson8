@@ -1,0 +1,102 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo_container {
+  background-color: white;
+  margin-bottom: 25px;
+}
+.logo {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.row {
+  display: flex;
+}
+.col-4 {
+  width: 33.33%;
+}
+.section_container {
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: white;
+  width: 33.33%;
+}
+.icon {
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.col-12 {
+  width: 100%;
+}
+.custom_select {
+  margin-left: 65px;
+  border-radius: 8px;
+  border-color: #c2c9d8;
+  width: 202px;
+  height: 40px;
+}
+.icon_valuta {
+  height: 20%;
+  margin-top: 5%;
+}
+.input {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  border-radius: 8px;
+}
+.price {
+  margin-right: 150px;
+}
+.col-6 {
+  width: 50%;
+}
+.price_input {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+.label {
+  margin-left: 65px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  height: 32px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.search_input {
+  text-align: center;
+  background-color: #fd4100;
+  border-style: none;
+}
+.search_input::placeholder {
+  color: white;
+}
+.price_row {
+  display: flex;
+  justify-content: center;
+}
+/* მეორე სექციის ნაწილი */
+.col-8 {
+  width: 66.66%;
+}
+.box_car {
+  background-color: black;
+}
